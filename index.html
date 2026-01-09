@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ADC / DAC Visualizer - MVP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>ADC / DAC Conversion Visualizer</h2>
+
+  <div class="controls">
+    <label>Sampling Rate</label>
+    <input type="range" id="sampleRate" min="5" max="50" value="20">
+
+    <label>Bit Resolution</label>
+    <input type="range" id="bitDepth" min="2" max="8" value="4">
+  </div>
+
+  <canvas id="canvas" width="800" height="300"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
